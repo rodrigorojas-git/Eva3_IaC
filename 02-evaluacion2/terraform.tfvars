@@ -1,0 +1,13 @@
+region            = "us-east-1"
+proyecto          = "eva2"
+vpc_cidr          = "10.0.0.0/16"
+cidr_subredes     = ["10.0.15.0/24", "10.0.25.0/24", "10.0.35.0/24"]
+ami_id            = "ami-0c230065b91270bc6"
+instance_type     = "t3.micro"
+cantidad_ec2      = 3
+cantidad_nlb      = 2
+buckets           = ["datos", "logs", "backups"]
+db_engine_version = "18.3"
+db_instance_class = "db.t3.micro"
+db_usuario        = "dbadmin"
+db_password       = "Eva2Password123"
